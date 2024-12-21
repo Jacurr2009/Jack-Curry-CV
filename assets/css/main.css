@@ -196,6 +196,8 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			word-wrap: break-word; /* Ensures text breaks if it’s too long */
+			white-space: normal;   /* Prevents the text from staying on one line */
 		}
 
 	h1 {
@@ -212,8 +214,9 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1rem;
+		word-wrap: break-word; /* Ensures text breaks if it’s too long */
+    	white-space: normal;   /* Prevents the text from staying on one line */
 	}
-
 	h4 {
 		font-size: 0.8rem;
 	}
